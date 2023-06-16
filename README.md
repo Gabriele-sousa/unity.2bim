@@ -13,7 +13,7 @@ Para criar esse projeto foram utilizados os seguintes passos:
 1. Baixar assets na asset store.
 * Esses foram os assets baixados para o projeto
  <img src="img/3.png"/>
-3. Colocar os game objects na cena.
+2. Colocar os game objects na cena.
  * Para a cena foi adicionados Arvores, Presentes, Bonecos de neve e Obstáculos.
  <img src="img/1.png"/>
  * Colocar o personagem que irá receber os scripts
