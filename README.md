@@ -19,6 +19,7 @@ Para criar esse projeto foram utilizados os seguintes passos:
  * Colocar o personagem que irá receber os scripts e a camera dentro da pasta do personagem
  <img src="img/2.png"/>
 3.Criar os scripts e programar
+ 
  * Foram criados dois scripts.
  <img src="img/4.png"/>
  
