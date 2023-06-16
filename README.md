@@ -19,7 +19,7 @@ Para criar esse projeto foram utilizados os seguintes passos:
  * Colocar o personagem que irá receber os scripts e a camera dentro da pasta do personagem
  <img src="img/2.png"/>
 3.Criar os scripts e programar
- * Foram criados dois scripts 
+ * Foram criados dois scripts.
  <img src="img/4.png"/>
  
  * Para fazer o Pinguim andar no script foi adicionado `if (Input.getKey (KeyCode.W))` e `transform.Translate (0.0f, 0f, 0.01f);` e para o fazer andar pra frente e o mesmo código mas com o `(KeyCode.S)` e o `transform.Translate (0.0f, 0, -0.01f);`.
