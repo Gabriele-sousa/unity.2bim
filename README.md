@@ -11,7 +11,7 @@ Para ver essa cena é necessario o Unity com a versão 2022.2.15f1
 ## Desenvolvimento
 Para criar esse projeto foram utilizados os seguintes passos:
 1. Baixar assets na asset store.
-* Esses foram os assets baixados para o projeto
+ * Esses foram os assets baixados para o projeto
  <img src="img/3.png"/>
 2. Colocar os game objects na cena.
  * Para a cena foi adicionados Arvores, Presentes, Bonecos de neve e Obstáculos.
