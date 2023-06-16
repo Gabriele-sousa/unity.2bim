@@ -16,7 +16,7 @@ Para criar esse projeto foram utilizados os seguintes passos:
 2. Colocar os game objects na cena.
  * Para a cena foi adicionados Arvores, Presentes, Bonecos de neve e Obstáculos.
  <img src="img/1.png"/>
- * Colocar o personagem que irá receber os scripts
+ * Colocar o personagem que irá receber os scripts e a camera dentro da pasta do personagem
  <img src="img/2.png"/>
 3.Criar os scripts e programar
  * Foram criados dois scripts 
@@ -28,3 +28,4 @@ Para criar esse projeto foram utilizados os seguintes passos:
  <img src="img/5.png"/>
  
  * Para fazer o pinguim pular é um código mais difícil
+ Primeiro requisitamos o componente RigidBody
