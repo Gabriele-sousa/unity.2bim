@@ -9,4 +9,8 @@ para ver essa cena é necessario o Unity com a versão 2022.2.15f1
 2. Abrir o projeto no Unity.
 
 ## Desenvolvimento
-e
+Para criar esse projeto foram utilizados os seguintes passos:
+1. baixar assets na asset store.
+2. Colocar os game objects na cena.
+ * Para a cena foi adicionados Arvores, Presentes, Bonecos de neve e Obstáculos.
+ 
