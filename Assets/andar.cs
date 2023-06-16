@@ -20,10 +20,10 @@ public class NewBehaviourScript : MonoBehaviour
             transform.Rotate (0.0f, -0.2f, 0f);
         }
         if (Input.GetKey (KeyCode.W)) {
-            transform.Translate (0.0f, 0f, 0.02f);
+            transform.Translate (0.0f, 0f, 0.01f);
         }
         if (Input.GetKey (KeyCode.S)) {
-            transform.Translate (0f, 0f, -0.02f);
+            transform.Translate (0f, 0f, -0.01f);
         }
         
 
