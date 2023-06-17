@@ -35,6 +35,10 @@ Para criar esse projeto foram utilizados os seguintes passos:
  * Depois usaremos uma variável que controla força do pulo `public float jumpForce = 3.0;` e colocaremos uma variável que controla a massa/peso `public float mass = 3.0f;`.
  * Depois acessamos o compenente Rigidbody atráves dessa variável `private Rigidbody rigidbody;`
  * Usaremos uma variável de controle que diz de se o personagem está no chão ou não `private bool isGround = false;`
- - dento do `void Start()`
+ - Dento do `void Start()`
    - Assim que o script é executado,obtemos o componente Rigidbody e atribuimos a nossa variável `rigidbody = GetComponent<Rigidbody>();`
    - Definimos o valor da massa via script `rigidbody.mass = mass;`
+ - Dentro do `void Update()`
+   - É verificado se o usuário não precionou a tecla Space ou se não está no chão `if (!Input.GetKeyDown(keycode.Space) || !isGround)` e `return;`
+   - Depois adicionamos uma força ao Rigidbody `rigidbody.AddForce(`
+     - cd 
