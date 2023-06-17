@@ -49,7 +49,7 @@ Para criar esse projeto foram utilizados os seguintes passos:
  
  - Verifica se o personagem saiu do chão `void OnCollisonExit(Collision collision)` e `isGround = false;` 
 * O código final fica assim:
-<img src="6.png"/>
+<img src="img/6.png"/>
 
 ## Autores
 Gabriele Batista Sousa e Arthur Victor Sousa Mascate
