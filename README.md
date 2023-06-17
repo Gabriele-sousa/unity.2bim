@@ -35,5 +35,5 @@ Para criar esse projeto foram utilizados os seguintes passos:
  * Depois acessamos o compenente Rigidbody atráves dessa variável `private Rigidbody rigidbody;`
  * Usaremos uma variável de controle que diz de se o personagem está no chão ou não `private bool isGround = false;`
  - dento do `void Start()`
-  - Assim que o script é executado,obtemos o componente Rigidbody e atribuimos a nossa variável `rigidbody = GetComponent<Rigidbody>();`
-  - Definimos o valor da massa via script `rigidbody.mass = mass;`
+   - Assim que o script é executado,obtemos o componente Rigidbody e atribuimos a nossa variável `rigidbody = GetComponent<Rigidbody>();`
+   - Definimos o valor da massa via script `rigidbody.mass = mass;`
