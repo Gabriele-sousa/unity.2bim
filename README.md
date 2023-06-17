@@ -40,5 +40,11 @@ Para criar esse projeto foram utilizados os seguintes passos:
    - Definimos o valor da massa via script `rigidbody.mass = mass;`
  - Dentro do `void Update()`
    - É verificado se o usuário não precionou a tecla Space ou se não está no chão `if (!Input.GetKeyDown(keycode.Space) || !isGround)` e `return;`
+   
    - Depois adicionamos uma força ao Rigidbody `rigidbody.AddForce(`
-     - Vector3.up * jumpforce Para fazer o personagem pular, então iremos multiplicar (0, 1, 0) pelo valor do pulo.
+     - `Vector3.up * jumpforce,` Para fazer o personagem pular, então iremos multiplicar (0, 1, 0) pelo valor do pulo.
+     - `ForceMode.Impulse` awui nós ajustamos a força para o tipo Impulse.
+
+- Verifica se o personagem tocou no chão `void OnCollisonEnter(Collision collision)` e `isGround = true;` 
+ 
+ - Verifica se o personagem saiu do chão `void OnCollisonExit(Collision collision)` e `isGround = false;` 
