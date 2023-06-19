@@ -30,7 +30,7 @@ Para criar esse projeto foram utilizados os seguintes passos:
    - O código final fica assim 
  <img src="img/5.png"/>
  
- 4. Código para fazer o pinguim pular
+ 4. Programando o playerjump
  * Primeiro requisitamos o componente RigidBody
  * Depois usaremos uma variável que controla força do pulo `public float jumpForce = 3.0;` e colocaremos uma variável que controla a massa/peso `public float mass = 3.0f;`.
  * Depois acessamos o compenente Rigidbody atráves dessa variável `private Rigidbody rigidbody;`
